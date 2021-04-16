@@ -22,19 +22,12 @@ void main()
         }
     }
 
-    for(int i=0; i<4; i++)
-    {
-        for(int j=0; j<4; j++)
-        {
-           C[i][j] = A[i][j] + B[i][j];
-        }
-    }
-
     printf("The resultant Matrix C is:\n");
     for(int i=0; i<4; i++)
     {
         for(int j=0; j<4; j++)
         {
+            C[i][j] = A[i][j] + B[i][j];
             printf("%d ", C[i][j]);
         }
         printf("\n");
