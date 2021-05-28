@@ -37,10 +37,10 @@ void main()
                 for(int r=1; r<=n; r++)
                 {
                     for(int sp= n-r; sp>=1; sp--)
-                        printf("  ");
+                        printf("   ");
                     for(int c=1; c<=(2*r-1); c++)
                     {
-                        printf("%d ", num);
+                        printf("%d  ", num);
                         num++;
                     }
                     printf("\n");
