@@ -185,3 +185,15 @@ example, if the input string is ‘C Programming Class’ output string
 will be ‘C gnimmargorP ssalC’.
 5. Write a program to calculate sum of first 20 natural numbers using
 recursive function.
+
+Assignment 12
+1. Write a program to find the sum of all the elements of an array using
+pointers.
+2. Write a program to swap value of two variables using pointer.
+3. Write a program to copy one array to another using pointer.
+4. Write a program to swap two arrays using pointers.
+5. Write a program to reverse an array using pointers.
+6. Write a program to find length of string using pointers.
+7. Write a program to copy one string to another using pointer.
+8. Write a program to concatenate two strings using pointers.
+9. Write a program to compare two strings using pointers.
