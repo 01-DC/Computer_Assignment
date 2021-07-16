@@ -197,3 +197,38 @@ pointers.
 7. Write a program to copy one string to another using pointer.
 8. Write a program to concatenate two strings using pointers.
 9. Write a program to compare two strings using pointers.
+
+Assignment 13
+1. Declare a structure for storing complex numbers. Write a C program that performs
+the following operations.
+(a) Read two complex numbers (a+ib)
+(b) Add two complex numbers
+(c) Subtract two complex numbers
+(d) Multiply two complex numbers
+2. Declare a structure to store the following information of an employee.
+(a) Employee code
+(b) Employee name
+(c) Salary
+(d) Department number
+(e) Date of joining (it is itself a structure consisting of day, month, year)
+Write a program that can take above information of 10 employees and display
+information for those employees whose salary ≥10000.
+3. Write a C program to copy one existing file (source file, say file1.txt) into another
+file (destination file, say file2.txt). In this case take the filename as input through
+command line argument. As for example, $./a.out file1.txt file2.txt
+4. Write a C program that can compare two files specified by the user, return a
+nonzero value if identical otherwise zero. (such as $cmp file1.txt file2.txt;
+compare the content of file1.txt and file2.txt if identical display 1 otherwise 0.)
+5. Create a structure to specify data on students given below:
+Roll number, Name, Department, Course, Year of joining
+Assume that there are not more than 20 students in the collage.
+(a) Write a function to print names of all students who joined in a particular year.
+(b) Write a function to print the data of a student whose roll number is given.
+6. Create a structure to specify data of customers in a bank.
+The data to be stored is: Account number, Name, Balance in account.
+Assume maximum of 20 customers in the bank.
+(a) Write a function to print the Account number and name of each customer with
+balance below Rs. 100.
+(b) If a customer request for withdrawal or deposit, it is given in the form: Acct. no,
+amount, code (1 for deposit, 0 for withdrawal) Write a program to give a message,
+“The balance is insufficient for the specified withdrawal”.
