@@ -20,6 +20,7 @@ void main()
 
     for(int i=0; i<10; i++)
     {
+        fflush(stdin);
         printf("Enter Name of employee %d: ", i+1);
         fgets(employee[i].name, 100, stdin);
         printf("Enter Employee code of employee %d: ", i+1);
