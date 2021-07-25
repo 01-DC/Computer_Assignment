@@ -137,6 +137,7 @@ not.
 operator.
 5. Write a C program to compute grade of n students in a subject. The
 grades are assigned as follow:
+
 | Marks | Grade |
 |-------|-------|
 | marks<50 | F |
@@ -145,6 +146,7 @@ grades are assigned as follow:
 | 70≤marks<80 | B+ |
 | 80≤marks<90 | A |
 | 90≤marks<100 | A+ |
+
 6. Write a C program to determine whether the input character is capital
 or small letter, digits or special symbol.
 7. Write a C program to check whether a date is valid or not.
